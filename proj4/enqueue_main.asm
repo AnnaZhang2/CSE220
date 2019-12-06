@@ -1,10 +1,10 @@
 .data
 .align 2
 queue:
-.half 0
+.half 7
 .half 10
-.word 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-packet: .word p07
+.word p05, p01, p06, p00, p03, p02, p07, 0, 0, 0,
+packet: .word p04
 v0: .asciiz "v0: "
 
 all_packets:

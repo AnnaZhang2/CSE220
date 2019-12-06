@@ -1,10 +1,10 @@
 .data
 .align 2
-max_queue_size: .word 7
+max_queue_size: .word 1
 queue:  # random garbage
 .half 4829  # size
 .half 8383  # max_size
-.word 0x0359ecda, 0x11219f6d, 0x0594776c, 0x313694e0, 0x1a103fc2, 0x110f37bd, 0x06e48f83
+.word 0x0359ecda, 0x11219f6d, 0x0594776c, 0x313694e0, 0x1a103fc2, 0x110f37bd, 0x06e48f83, 0x06e48f83, 0x06e48f83, 0x06e48f83, 0x06e48f83, 0x06e48f83
 
 .text
 .globl main

@@ -1,8 +1,8 @@
 .data
 .align 2
-packets: .space 141  # adjust as needed to store all bytes of the packets
-msg: .asciiz "Grace Murray Hopper was one of the first computer programmers to work on the Harvard Mark I."
-payload_size: .word 12
+packets: .space 189  # adjust as needed to store all bytes of the packets
+msg: .asciiz "i want to stop testing cases and want to go to sleep"
+payload_size: .word 4
 version: .word 5
 msg_id: .word 154
 priority: .word 7

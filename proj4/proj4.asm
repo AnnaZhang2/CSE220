@@ -402,7 +402,13 @@ dequeue:
 		jr $ra
 		
 	dequeue_end:
+		move $a0, $s0
+		lhu $t0, -4($a0)
+		addi $t0, $t0, -1
+		sh $t0, -4($a0)
+		
 		move $v0, $s1
+		
 		lw $s0, ($sp)
 		lw $s1, 4($sp)
 		lw $ra, 8($sp)

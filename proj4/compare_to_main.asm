@@ -10,7 +10,7 @@ v0: .asciiz "v0: "
 .text
 .globl main
 main:
-la $a0, packet1
+la $a0, packet2
 la $a1, packet2
 jal compare_to
 move $s0, $v0
