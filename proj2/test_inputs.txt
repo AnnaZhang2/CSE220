@@ -1,0 +1,72 @@
+strlen:
+"**[CSE 220 Fall 2019]!!!**"
+"stonybrook"
+""
+
+
+index_of:
+"**[CSE 220 Fall 2019]!!!**", 'F'
+"**[CSE 220 Fall 2019]!!!**", '0'
+"", 'A'
+
+
+bytecopy:
+src = "ABCDEFGHIJKLMNOP"
+dest = "abcdefghijklmn"
+
+
+scramble_encrypt:
+"Do your homework and study! CSE 220, SBU, Fall 2019!!!"
+"QeKEPOslaJbkfxUDdGTIStNwhjXnYCLvRpyFqBzmAuHrgoiZMcWV"
+
+
+scramble_decrypt:
+"EA WAir pAzLMArq XmC goiCW! KTP 220, TeS, OXBB 2019!!!"
+"QeKEPOslaJbkfxUDdGTIStNwhjXnYCLvRpyFqBzmAuHrgoiZMcWV"
+
+
+base64_encode:
+"Let's hear it for MIPS! Goooooo MIPS!"
+"HWegnLO7mM0Q6XwTplBduqSNJsZhkrf25cUoE49bAvPtz8IKDyVjiYC31/+axFRG"
+
+"23 + 52 equals 75"
+"3YbGHP1qIX5OyFsxgWKliB7h8AanUk6trD4w+LR0jMZfTp29J/NuCdomvzVcEeSQ"
+
+"Stony Brook University 2019"
+"jm3MX7T1wFRHLfVDQlGvtNs/ZCon8JyBig+2EurkPU0K9q4aOhSIW5pxY6Adzceb"
+
+
+base64_decode:
+"bYKLodGUOjH8Hw=="
+"w964Nem/zAR37BtJxKv0byjkgMOfoH2PqIulnDdT8CV1UcEL5QXhrGsYaZpFi+SW"
+
+"MipF4izIuMxtcrcy4iwvcNkOANIg+S5/CUn="
+"VxZDRbN7s6T9om8lP5MXwkrS+cJC4AuKv2tYeIiW0/EG3LgyQfBOhFUjnzHdqpa1"
+
+"kkV="
+"JacdT30UI79KV1povPfwrkjlZznDYELQGH/Ohm6BXu2itbe8xRWsgC5q4SyAM+FN"
+
+
+bifid_encrypt:
+"\"The Man\", The Killers (2017)\0"
+"g.WDO?s1Htj2X#ydhP$!o6M- Zplz\'a;nVTv3Qek7SBIJ=8C,cu@9/Ym4Fxb5AKf(*RU\"rq)%wEN:0LiG"
+
+"Stony Brook University"
+"#8yszp,gv4\"huWA!w=lMRatXrEDGeBm5j$Z1Iq?Q*n;PTNV2iC9.H)k06o(f3@d7\'S:%OYK-xL/cUJ bF"
+
+"Computer Science"
+"68*be/x!1uSvE0t?U;$l-ci(4nak=)2CW5\'ZOHPDAwf7qIXs#mjF\"VrLN@3p:BRJzdygGhTYMoQ9 %.,K"
+
+"Dinner @ $50 per person"
+"DQn\'v)t;iGI%5dOr*Rbu4zH@xcZ?:/M1XK,0P$9f=meps(#VUg aBYCSj\"!-N.TlAkWLyh7FE3q2wo8J6"
+
+
+bifid_decrypt:
+"S(vtjrB3drm,UNBn1!plm?"
+"#8yszp,gv4\"huWA!w=lMRatXrEDGeBm5j$Z1Iq?Q*n;PTNV2iC9.H)k06o(f3@d7\'S:%OYK-xL/cUJ bF"
+
+"ZHFwS/xOoH-C*7$C"
+"68*be/x!1uSvE0t?U;$l-ci(4nak=)2CW5\'ZOHPDAwf7qIXs#mjF\"VrLN@3p:BRJzdygGhTYMoQ9 %.,K"
+
+"DD$Vg5g$g$sDqx- 5oh-hTV"
+"DQn\'v)t;iGI%5dOr*Rbu4zH@xcZ?:/M1XK,0P$9f=meps(#VUg aBYCSj\"!-N.TlAkWLyh7FE3q2wo8J6"
